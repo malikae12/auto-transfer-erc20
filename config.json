@@ -1,0 +1,14 @@
+{
+    "rpcUrl": "https://example.rpc.url",
+    "privateKey": "your-private-key",
+    "tokens": [
+      {
+        "address": "0xTokenAddress",
+        "recipient": "0xRecipientAddress",
+        "amount": "0.01",
+        "decimals": 18
+      }
+    ],
+    "sleepDuration": 30000
+  }
+  

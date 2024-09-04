@@ -1,0 +1,16 @@
+[ 
+   {
+  "name": "Ethereum",
+  "rpcUrl": "https://eth.drpc.org",
+  "chainId": "1",
+  "symbol": "ETH",
+  "explorer": "https://etherscan.io/"
+  },
+  {
+    "name": "Ethereum Arbitrum",
+    "rpcUrl": "https://arb1.arbitrum.io/rpc",
+    "chainId": "42161",
+    "symbol": "ETH",
+    "explorer": "https://arbiscan.io/"
+  }
+]
