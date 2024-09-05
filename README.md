@@ -28,18 +28,26 @@ all trasnfer
 
 
 # install
-``
+```bash
 npm install https://github.com/malikae12/auto-transfer-erc20
-``
+```
 
 # rubah 0x private key di #config.js {scroll paling bawah}
 # noted private key must use 0x exemple: 0xYOURPRIVATEKEY
 
-# start to run recomend use ```npm start```
-``
-npm start``
+# start to run recomend use ``npm start``
+
+```bash
+npm start
+```
+
 or 
-``
-node mormal.js``
-or 
-``node arb.js``
+
+```bash
+node mormal.js
+```
+or
+
+```bash
+node arb.js
+```
