@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # new-1
 
 #Penjelasan: {anda juga bisa menambahkan jaringan lain seperti testnet dll}
@@ -21,3 +22,7 @@ Dalam konteks transfer token atau cryptocurrency, angka 1 dan 2 bisa digunakan u
 2. Transfer Ether atau Solana (atau aset native lainnya)
 2: Untuk mentransfer aset native dari jaringan tersebut, seperti Ether di Ethereum, BNB di Binance Smart Chain, atau SOL di Solana. Ini adalah transfer langsung dari alamat ke alamat tanpa melibatkan kontrak token.
 
+=======
+# trasnfer-erc20
+all trasnfer
+>>>>>>> origin/main
