@@ -1,14 +1,60 @@
 {
-    "rpcUrl": "https://example.rpc.url",
-    "privateKey": "your-private-key",
-    "tokens": [
-      {
-        "address": "0xTokenAddress",
-        "recipient": "0xRecipientAddress",
-        "amount": "0.01",
+    "networks": {
+      "ethereum": {
+        "name": "Ethereum",
+        "rpcUrl": "https://eth.drpc.org",
+        "chainId": 1,
+        "symbol": "ETH",
+        "explorer": "https://etherscan.io/",
+        "tokenContractAddress": "0xYourEthereumTokenContractAddress",
         "decimals": 18
+      },
+      "arbitrum": {
+        "name": "Ethereum Arbitrum",
+        "rpcUrl": "https://arb1.arbitrum.io/rpc",
+        "chainId": 42161,
+        "symbol": "ETH",
+        "explorer": "https://arbiscan.io/",
+        "tokenContractAddress": "0xFF970A61A04b1cA14834A43f5dE4533eBDDB5CC8",
+        "decimals": 6
+      },
+      "optimism": {
+        "name": "Ethereum Optimism",
+        "rpcUrl": "https://mainnet.optimism.io",
+        "chainId": 10,
+        "symbol": "ETH",
+        "explorer": "https://optimistic.etherscan.io/",
+        "tokenContractAddress": "0xYourOptimismTokenContractAddress",
+        "decimals": 18
+      },
+      "base": {
+        "name": "Ethereum Base",
+        "rpcUrl": "https://mainnet.base.org",
+        "chainId": 8453,
+        "symbol": "ETH",
+        "explorer": "https://basescan.org/",
+        "tokenContractAddress": "0xYourBaseTokenContractAddress",
+        "decimals": 18
+      },
+      "bsc": {
+        "name": "Binance Smart Chain",
+        "rpcUrl": "https://bsc-dataseed.binance.org/",
+        "chainId": 56,
+        "symbol": "BNB",
+        "explorer": "https://bscscan.com/",
+        "tokenContractAddress": "0xYourBSCAndTokenContractAddress",
+        "decimals": 18
+      },
+      "solana": {
+        "name": "Solana",
+        "rpcUrl": "https://api.mainnet-beta.solana.com",
+        "chainId": null,
+        "symbol": "SOL",
+        "explorer": "https://explorer.solana.com/",
+        "tokenContractAddress": null,
+        "decimals": null
       }
-    ],
-    "sleepDuration": 30000
+    },
+    "privateKey": "0x2ffd290ccda407e91517a26c6c9b8758cf172e692d3ef2b099b4876008867f7c"
   }
   

@@ -1,13 +1,14 @@
 {
-  "name": "evm-auto-transfer-bot",
+  "name": "auto-transfer-erc20",
   "version": "1.0.0",
-  "description": "A bot for automatic token transfers on EVM-compatible networks",
+  "description": "AUTO TRANSFER ERC-20",
   "main": "index.js",
   "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
+    "@solana/web3.js": "^1.95.3",
     "chalk": "^5.3.0",
     "colors": "^1.4.0",
     "ethers": "^6.13.2"
