@@ -1,4 +1,5 @@
-# Penjelasan: {anda juga bisa menambahkan jaringan lain seperti testnet dll}
+# Penjelasan dan cara running
+# {anda juga bisa menambahkan jaringan lain seperti testnet dll}
 
 Ethereum: Jaringan Ethereum utama.
 Arbitrum: Jaringan Ethereum Arbitrum.
