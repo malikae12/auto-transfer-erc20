@@ -55,6 +55,6 @@
         "decimals": null
       }
     },
-    "privateKey": "0x2ffd290ccda407e91517a26c6c9b8758cf172e692d3ef2b099b4876008867f7c"
+    "privateKey": "0x_your private_key" // must use 0x
   }
   
