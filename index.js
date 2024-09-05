@@ -118,7 +118,7 @@ async function handleTokenTransaction(network) {
 
     if (balance < amount) {
       console.log(chalk.yellow('Saldo tidak mencukupi untuk transfer saat ini. Menunggu saldo mencukupi...'));
-      await delay(5000); // Tunggu 5 detik sebelum mencoba lagi
+      await delay(10); // Tunggu 0.1 detik sebelum mencoba lagi
       continue; // Coba lagi
     }
 
@@ -195,7 +195,7 @@ async function handleEthTransaction(network) {
 
     if (balance < amount) {
       console.log(chalk.yellow('Saldo tidak mencukupi untuk transfer saat ini. Menunggu saldo mencukupi...'));
-      await delay(5000); // Tunggu 5 detik sebelum mencoba lagi
+      await delay(10); // Tunggu 0.1 detik sebelum mencoba lagi
       continue; // Coba lagi
     }
 
