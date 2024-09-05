@@ -1,16 +1,18 @@
-<<<<<<< HEAD
 # Penjelasan: {anda juga bisa menambahkan jaringan lain seperti testnet dll}
+
 Ethereum: Jaringan Ethereum utama.
 Arbitrum: Jaringan Ethereum Arbitrum.
 Optimism: Jaringan Ethereum Optimism.
 Base: Jaringan Ethereum Base.
 Binance Smart Chain: Jaringan BSC.
 Solana: Jaringan Solana.
+ETC..
 
 Pastikan untuk mengganti placeholder seperti
- 0xYourEthereumTokenContractAddress, 0xYourArbitrumTokenContractAddress, 0xYourOptimismTokenContractAddress, 0xYourBaseTokenContractAddress, 0xYourBSCAndTokenContractAddress, dan 0x_your_private_key dengan nilai yang sesuai.
+ 0xYourEthereumTokenContractAddress, 0xYourArbitrumTokenContractAddress, 0xYourOptimismTokenContractAddress, 0xYourBaseTokenContractAddress, 0xYourBSCAndTokenContractAddress, dan 0x_your_private_key 0x harus menggunakan jika tidak private akan invalid
 
- #digunakan untuk mentrasfer token ERC-20 atau token contract
+ # digunakan untuk mentrasfer token ERC-20 atau token contract
+anda bisa mengganti contract yang anda inginkan di CONFIG.JS
 
 Dalam konteks transfer token atau cryptocurrency, angka 1 dan 2 bisa digunakan untuk menentukan jenis transaksi yang ingin dilakukan. Berikut adalah contohnya:
 
@@ -23,4 +25,17 @@ Dalam konteks transfer token atau cryptocurrency, angka 1 dan 2 bisa digunakan u
 =======
 # trasnfer-erc20
 all trasnfer
->>>>>>> origin/main
+
+
+# install
+`` https://github.com/malikae12/auto-transfer-erc20 ``
+
+# rubah 0x private key di #config.js {scroll paling bawah}
+# noted private key must use 0x exemple: 0xYOURPRIVATEKEY
+
+# start to run recomend use ```npm start```
+``` npm start ```
+or 
+```node mormal.js```
+or 
+``` node arb.js```
