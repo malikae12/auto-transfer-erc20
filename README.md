@@ -28,7 +28,7 @@ all trasnfer
 
 
 # install
-`` https://github.com/malikae12/auto-transfer-erc20 ``
+`` npm install https://github.com/malikae12/auto-transfer-erc20 ``
 
 # rubah 0x private key di #config.js {scroll paling bawah}
 # noted private key must use 0x exemple: 0xYOURPRIVATEKEY
